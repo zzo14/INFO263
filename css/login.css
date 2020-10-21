@@ -1,0 +1,34 @@
+*{margin: 0;
+    padding: 0;
+}
+body{color:white}
+.context{background: black;
+    position: absolute;
+    left: 0;
+    top:50%;
+    width: 100%;
+    height: 400px;
+    margin-top: -200px;
+    overflow: hidden;
+}
+.container{
+    max-width: 600px;
+    height: 400px;
+    padding: 80px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.container h1{
+    font-size: 40px;
+    font-weight: 300;}
+form{padding: 20px 0;}
+form input{border: 1px solid #FFF;
+    width: 220px;
+    padding: 10px 15px;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
